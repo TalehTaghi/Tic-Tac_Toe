@@ -1,0 +1,51 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+#all
+{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1
+{
+    color: darkred;
+    font-size: 60px;
+}
+
+table
+{
+    border: none;
+}
+
+td, th
+{
+    border: none;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inner
+{
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+    border: solid 2px black;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+span
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: darkred;
+    margin-left: 12px;
+}
